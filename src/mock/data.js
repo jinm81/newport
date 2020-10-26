@@ -21,8 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume:
-    'https://onedrive.live.com/edit.aspx?resid=BD482E82215FB74F!1532&ithint=file%2cdocx&authkey=!AIRYr03WdSceFMk', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1eJ0A7_BXIXuT0ArQHdTOS4aCoi3aN6VM/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
