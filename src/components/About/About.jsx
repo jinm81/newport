@@ -39,15 +39,10 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Full Stack Web Developer excited about integrating technologies to solve problems and improve upon existing methods. Leveraging background in account manager to provide unique perspectives on how end-users interact with websites and software platforms.'}
+                    'Full Stack Web Developer excited about integrating technologies to solve problems and improve upon existing methods. Leveraging past experiance to provide unique perspectives on how end-users interact with websites and software platforms.'}
                 </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    ''}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || ''}
-                </p>
+                <p className="about-wrapper__info-text">{paragraphTwo || ''}</p>
+                <p className="about-wrapper__info-text">{paragraphThree || ''}</p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
